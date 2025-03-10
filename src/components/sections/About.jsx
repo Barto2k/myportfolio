@@ -10,7 +10,7 @@ export const About = () => {
     return (
         <section id="about" className="w-full min-h-screen flex flex-col items-center justify-center py-20 relative ">
             <RevealOnScroll>
-                <div className="stage-cube-cont w-1/2 h-full pt-[18%] absolute top-0 left-1/2 transform -translate-x-1/2 overflow-hidden ">
+                <div className="stage-cube-cont w-full h-full pt-[18%] absolute top-0 left-1/2 transform -translate-x-1/2 overflow-hidden ">
                     <div className="cubespinner animate-spin-cube ease-in-out infinite duration-[12s] transform-style-preserve-3d origin-[100px_100px_0] ml-[calc(50%-100px)]">
                         <div className="face1 absolute w-[200px] h-[200px] bg-[rgba(255,255,255,0.4)] border border-[#ccc] text-[100px] flex justify-center items-center shadow-[0_0_20px_lightyellow] transform translate-z-[100px]">
                             <FontAwesomeIcon icon={faJava} color='#007396' />
